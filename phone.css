@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    flex-wrap: wrap-reverse;
+}
+#main{
+    max-width: 300px;
+}
+#head{
+    gap:2px;
+    flex-wrap: unset;
+}
+h1{
+    font-size: 25px;
+}
+.temperature-icon{
+    font-size: 30px;
+}
+.celsius .fahrenheit.kelvin{
+    display: block;
+}
+input{
+    height: 50px;
+    padding: 5px 0px 10px 0px;
+}
+.icon{
+    line-height: 45px;
+    flex-wrap: wrap-reverse;
+    justify-content: right;
+}
+.button button{
+    padding: 10px 15px;
+}
